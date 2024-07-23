@@ -2,6 +2,7 @@ body {
     height: 100dvh;
     display: grid;
     place-items: center;
+    background-color: #0000004f;
 }
 
 i {
@@ -14,12 +15,17 @@ i {
     color: #fff;
 }
 
+span {
+    padding: 0px 2px;
+}
+
 .counter-container {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #000000e7;
     padding: 20px;
+    border-radius: 5px;
 }
 
 .counter-tile {
@@ -29,7 +35,6 @@ i {
     justify-content: center;
     align-items: center;
     width: 50px;
-    height: 100px;
     margin: 0px 5px;
     border-radius: 10px;
 }
