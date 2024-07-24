@@ -1,7 +1,6 @@
 import React from "react";
-import Digit from './digit.jsx'
 
-const Counter = ({ number }) => {
+const Counter = ({number}) => {
 
   const one = Math.floor(number / 1) % 10;
   const two = Math.floor(number / 10) % 10;
