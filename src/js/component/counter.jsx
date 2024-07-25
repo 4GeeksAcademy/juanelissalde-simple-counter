@@ -1,13 +1,6 @@
 import React from "react";
 
-const Counter = ({number}) => {
-
-  const one = Math.floor(number / 1) % 10;
-  const two = Math.floor(number / 10) % 10;
-  const three = Math.floor(number / 100) % 10;
-  const four = Math.floor(number / 1000) % 10;
-  const five = Math.floor(number / 10000) % 10;
-
+const Counter = ({ one, two, three, four, five }) => {
   return (
     <>
       <div className="counter-container">
@@ -27,7 +20,7 @@ const Counter = ({number}) => {
         </div>
       </div>
     </>
-  )
+  );
 };
 
 export default Counter;
